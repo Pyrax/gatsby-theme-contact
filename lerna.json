@@ -1,0 +1,16 @@
+{
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "bump": "patch",
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  },
+  "packages": ["example", "gatsby-theme-contact"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "registry": "https://registry.npmjs.org/",
+  "useWorkspaces": true,
+  "ignoreChanges": ["CHANGELOG.md"]
+}
