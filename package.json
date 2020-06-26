@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn workspace example build",
-    "test": "echo \"No tests specified.\"",
-    "publish": "lerna publish"
+    "test": "echo \"No tests specified.\""
   },
   "workspaces": [
     "gatsby-theme-contact",
