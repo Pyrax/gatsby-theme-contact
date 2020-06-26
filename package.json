@@ -29,10 +29,5 @@
     "lerna": "^3.22.1",
     "netlify-cli": "^2.54.0",
     "prettier": "^2.0.5"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
