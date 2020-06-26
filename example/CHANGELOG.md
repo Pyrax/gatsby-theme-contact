@@ -5,15 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.2](https://github.com/Pyrax/gatsby-theme-contact/compare/v1.0.1...v1.0.2) (2020-06-26)
 
-**Note:** Version bump only for package gatsby-theme-contact-workspace
-
-
-
-
-
-## 1.0.1 (2020-06-26)
-
-
-### Features
-
-* initial release ([1f23286](https://github.com/Pyrax/gatsby-theme-contact/commit/1f232865f88f8842b62f9113031f639eee70bbfb))
+**Note:** Version bump only for package example
