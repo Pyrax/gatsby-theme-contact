@@ -10,7 +10,6 @@
   "packages": ["example", "gatsby-theme-contact"],
   "version": "independent",
   "npmClient": "yarn",
-  "registry": "https://registry.npmjs.org/",
   "useWorkspaces": true,
   "ignoreChanges": ["CHANGELOG.md"]
 }
