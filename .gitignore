@@ -69,3 +69,5 @@ fabric.properties
 .env
 .env.*
 !.env.example
+
+lerna-debug.log
