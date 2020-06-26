@@ -10,6 +10,5 @@
   "packages": ["example", "gatsby-theme-contact"],
   "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true,
-  "ignoreChanges": ["CHANGELOG.md"]
+  "useWorkspaces": true
 }
