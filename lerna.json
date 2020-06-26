@@ -7,8 +7,11 @@
       "message": "chore(release): publish"
     }
   },
-  "packages": ["example", "gatsby-theme-contact"],
-  "version": "1.0.0",
+  "packages": [
+    "example",
+    "gatsby-theme-contact"
+  ],
+  "version": "1.0.1",
   "npmClient": "yarn",
   "useWorkspaces": true
 }

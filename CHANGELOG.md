@@ -9,11 +9,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * initial release ([1f23286](https://github.com/Pyrax/gatsby-theme-contact/commit/1f232865f88f8842b62f9113031f639eee70bbfb))
-
-
-
-
-
-# [1.0.0](https://github.com/Pyrax/gatsby-theme-contact/compare/example@1.0.0...example@1.0.0) (2020-06-26)
-
-**Note:** Version bump only for package example
