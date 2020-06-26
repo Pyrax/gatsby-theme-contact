@@ -8,67 +8,67 @@ Gatsby theme for a styled serverless contact page using Netlify Forms. It can al
 
 1. Install the theme and (optionally) theme-ui:
 
-```sh
-npm install gatsby-theme-contact theme-ui gatsby-plugin-theme-ui
-```
+   ```sh
+   npm install gatsby-theme-contact theme-ui gatsby-plugin-theme-ui
+   ```
 
 2. Add the configuration to your `gatsby-config.js` file:
 
-```js
-// gatsby-config.js
-module.exports = {
-  siteMetadata: {
-    // Links to your social networks:
-    social: [
-      {
-        url: 'https://github.com/Pyrax',
-        name: 'GitHub'
-      }
-    ]
-  },
-  plugins: [
-    {
-      resolve: `gatsby-theme-contact`,
-      options: {
-        contactPath: '/contact',
-        successPath: '/thanks'
-      }
-    }
-  ]
-}
-```
+   ```js
+   // gatsby-config.js
+   module.exports = {
+     siteMetadata: {
+       // Links to your social networks:
+       social: [
+         {
+           url: 'https://github.com/Pyrax',
+           name: 'GitHub'
+         }
+       ]
+     },
+     plugins: [
+       {
+         resolve: `gatsby-theme-contact`,
+         options: {
+           contactPath: '/contact',
+           successPath: '/thanks'
+         }
+       }
+     ]
+   }
+   ```
 
 3. Shadow `details`-component to customize your address etc. (this is where you might need theme-ui)
 
-```js
-// src/gatsby-theme-contact/components/details.js
-/** @jsx jsx */
-import React from 'react'
-import { jsx, Styled } from 'theme-ui'
+   ```js
+   // src/gatsby-theme-contact/components/details.js
+   /** @jsx jsx */
+   import React from 'react'
+   import { jsx, Styled } from 'theme-ui'
 
-const Details = () => (
-  <>
-    <Styled.h3 sx={{ mt: 0 }}>Address</Styled.h3>
-    <span>
-      David Mathews
-      <br />
-      1011 Malesuada Road
-      <br />
-      Moscow Kentucky 77382
-    </span>
+   const Details = () => (
+     <>
+       <Styled.h3 sx={{ mt: 0 }}>Address</Styled.h3>
+       <span>
+         David Mathews
+         <br />
+         1011 Malesuada Road
+         <br />
+         Moscow Kentucky 77382
+       </span>
 
-    <Styled.h3>Phone</Styled.h3>
-    <span>(357) 616-5411</span>
+       <Styled.h3>Phone</Styled.h3>
+       <span>(357) 616-5411</span>
 
-    <Styled.h3>Email</Styled.h3>
-    <span>
-      <Styled.a href='mailto:email@example.com'>email@example.com</Styled.a>
-    </span>
-  </>
-)
+       <Styled.h3>Email</Styled.h3>
+       <span>
+         <Styled.a href='mailto:email@example.com'>email@example.com</Styled.a>
+       </span>
+     </>
+   )
 
-export default Details
-```
+   export default Details
+   ```
 
 ## Available options
 
