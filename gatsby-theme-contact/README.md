@@ -4,6 +4,8 @@ Gatsby theme for a styled serverless contact page using Netlify Forms. It can al
 
 **IMPORTANT NOTE: Form submission by default only works on Netlify because it uses Netlify Forms. For other hosting services you have to override the form.**
 
+![Theme preview](https://raw.github.com/Pyrax/gatsby-theme-contact/master/.github/static/images/theme-preview.png)
+
 ## Installation
 
 1. Install the theme and (optionally) theme-ui:
