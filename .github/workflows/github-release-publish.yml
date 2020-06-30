@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: 'https://npm.pkg.github.com/'
           scope: '@Pyrax'
 
       - name: Cache dependencies
@@ -49,7 +49,7 @@ jobs:
       - run: yarn test
 
       - name: Autoscope package.json
-        uses: khaazz/action-autoscope@master
+        uses: khaaz/action-autoscope@master
 
       - name: Publish current versions to GitHub Packages
         run: lerna publish from-package --registry=https://npm.pkg.github.com/Pyrax
