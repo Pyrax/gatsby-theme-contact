@@ -37,6 +37,8 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com/'
           scope: '@Pyrax'
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Cache dependencies
         uses: actions/cache@v2
