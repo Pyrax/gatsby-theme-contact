@@ -16,3 +16,30 @@ exports.createPages = ({ actions }, options) => {
     actions.createPage(page)
   })
 }
+
+exports.createSchemaCustomization = ({ actions, schema }) => {
+  const { createTypes } = actions
+  const typeDefs = [
+    'type SiteSiteMetadata implements Node { social: [Social] }',
+    schema.buildObjectType({
+      name: 'Social',
+      fields: {
+        url: {
+          type: 'String!',
+          resolve(source) {
+            const { url = '' } = source
+            return url
+          }
+        },
+        name: {
+          type: 'String',
+          resolve(source) {
+            const { name = '' } = source
+            return name
+          }
+        }
+      }
+    })
+  ]
+  createTypes(typeDefs)
+}
