@@ -53,6 +53,8 @@ jobs:
       - name: Autoscope package.json
         uses: khaaz/action-autoscope@master
 
+      - run: yarn install --frozen-lockfile lerna
+
       - name: Publish current versions to GitHub Packages
         run: lerna publish from-package --registry=https://npm.pkg.github.com/Pyrax
         env:
