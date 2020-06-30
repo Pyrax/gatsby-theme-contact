@@ -56,6 +56,6 @@ jobs:
       - run: npm i -g lerna
 
       - name: Publish current versions to GitHub Packages
-        run: lerna publish from-package --registry=https://npm.pkg.github.com/Pyrax
+        run: lerna publish from-package --yes --registry=https://npm.pkg.github.com/Pyrax
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
