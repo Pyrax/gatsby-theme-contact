@@ -52,6 +52,8 @@ jobs:
 
       - name: Autoscope package.json
         uses: khaaz/action-autoscope@master
+      - name: Ignore package.json changes (due to autoscope)
+        run: git update-index --assume-unchanged package.json
 
       - run: npm i -g lerna
 
