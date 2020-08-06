@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/Pyrax/gatsby-theme-contact/compare/v1.0.4...v1.0.5) (2020-08-06)
+
+
+### Bug Fixes
+
+* defaults not set in gatsby-node ([a7a3828](https://github.com/Pyrax/gatsby-theme-contact/commit/a7a38283a0b3cd3b3f7f11943b03426cc30e21b6))
+
+
+
+
+
 ## [1.0.4](https://github.com/Pyrax/gatsby-theme-contact/compare/v1.0.3...v1.0.4) (2020-06-30)
 
 
