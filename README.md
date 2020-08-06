@@ -1,5 +1,7 @@
 # gatsby-theme-contact
 
+![Theme preview](https://raw.github.com/Pyrax/gatsby-theme-contact/master/.github/static/images/theme-preview.png)
+
 ## Description
 
 Gatsby theme for a styled serverless contact page using Netlify Forms. It can also be customized to work with other backend services than Netlify by [shadowing](https://www.gatsbyjs.org/docs/themes/shadowing/) the form component.
