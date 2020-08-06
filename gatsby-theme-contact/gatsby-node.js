@@ -1,5 +1,5 @@
 exports.createPages = ({ actions }, options) => {
-  const { contactPath, successPath } = options
+  const { contactPath = '/contact', successPath = '/thanks' } = options
 
   const pages = [
     {

@@ -1,3 +1,3 @@
-module.exports = ({ contactPath = '/contact', successPath = '/thanks' }) => ({
+module.exports = {
   plugins: [`gatsby-plugin-theme-ui`]
-})
+}
