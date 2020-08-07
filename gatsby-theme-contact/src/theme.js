@@ -99,7 +99,6 @@ const button = {
   border: (t) => `2px solid ${t.colors.muted}`,
   borderRadius: 'pill',
   textTransform: 'uppercase',
-  textVariant: 'small-caps',
   fontWeight: 'bold',
   letterSpacing: 'wide',
   outline: 'none',
