@@ -3,7 +3,7 @@ on:
     tags:
       - 'v*'
 
-name: GitHub Release & Publish
+name: GitHub Release
 
 jobs:
   github-release:
@@ -25,39 +25,3 @@ jobs:
             See [CHANGELOG.md](./CHANGELOG.md) for changes.
           draft: false
           prerelease: false
-
-  github-packages-publish:
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-          registry-url: 'https://npm.pkg.github.com/'
-          scope: '@Pyrax'
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.yarn
-          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      - run: yarn install --frozen-lockfile
-      - run: yarn test
-
-      - name: Autoscope package.json
-        uses: khaaz/action-autoscope@master
-      - name: Ignore package.json changes (due to autoscope)
-        run: git update-index --assume-unchanged package.json
-
-      - run: npm i -g lerna
-
-      - name: Publish current versions to GitHub Packages
-        run: lerna publish from-package --yes --no-git-reset --registry=https://npm.pkg.github.com/Pyrax
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
