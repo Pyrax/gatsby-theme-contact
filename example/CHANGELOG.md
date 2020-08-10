@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/Pyrax/gatsby-theme-contact/compare/v1.0.6...v2.0.0) (2020-08-10)
+
+**Note:** Version bump only for package example
+
+
+
+
+
 ## [1.0.6](https://github.com/Pyrax/gatsby-theme-contact/compare/v1.0.5...v1.0.6) (2020-08-06)
 
 **Note:** Version bump only for package example
