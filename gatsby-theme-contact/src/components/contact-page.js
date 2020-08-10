@@ -3,6 +3,7 @@ import React from 'react'
 import { jsx } from 'theme-ui'
 
 import Layout from './layout'
+import Header from './header'
 import Intro from './intro'
 import Form from './form'
 import Details from './details'
@@ -18,22 +19,23 @@ const ContactPage = () => (
         gridTemplateRows: [`auto`],
         gridTemplateAreas: [
           `
-        "intro"
+        "header"
         "form"
         "details"
         `,
           null,
           `
-        "intro intro"
+        "header header"
         "form details"
         `
         ]
       }}
     >
-      <div sx={{ gridArea: `intro`, mb: [1, null, 3] }}>
-        <Intro />
+      <div sx={{ gridArea: `header`, mb: [1, null, 3] }}>
+        <Header />
       </div>
       <div sx={{ gridArea: `form`, pr: [0, null, 5] }}>
+        <Intro />
         <Form />
       </div>
       <aside
