@@ -24,12 +24,12 @@
     "develop": "gatsby develop"
   },
   "peerDependencies": {
-    "gatsby": "^2.23.7",
+    "gatsby": "^3.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "gatsby": "^2.23.7",
+    "gatsby": "^3.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -37,9 +37,9 @@
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@mdx-js/react": "^1.6.6",
-    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-theme-ui": "^0.9.1",
     "react-netlify-forms": "^1.1.0",
     "react-social-icons": "^4.1.0",
-    "theme-ui": "^0.3.1"
+    "theme-ui": "^0.9.1"
   }
 }
