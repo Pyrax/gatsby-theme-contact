@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "gatsby-plugin-theme-ui": "^0.9.1",
-    "react-netlify-forms": "^1.1.0",
+    "react-netlify-forms": "^1.3.0",
     "react-social-icons": "^4.1.0",
     "theme-ui": "^0.9.1"
   }

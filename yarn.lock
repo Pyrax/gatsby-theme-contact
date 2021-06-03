@@ -14135,10 +14135,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-netlify-forms@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-netlify-forms/-/react-netlify-forms-1.1.0.tgz#9b7520ffb11c05254d6ea983d40fc9a13813dcd6"
-  integrity sha512-PzgfY2s9YlZWlLcT93fxQTuKJZWP5asgsHDEle5B4N33d9s5YW8zD/zXU0jbzL/YONuobyz/nA4/vIr6jdj15Q==
+react-netlify-forms@^1.3.0:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-netlify-forms/-/react-netlify-forms-1.3.1.tgz#e859e3650c4ea0e9f1dadf2e6167452f421665f7"
+  integrity sha512-UHmf4Y4h99kmjSG5cM9K4TkFydPCAorOuQMMoF2dFUnAmIn6MUmiDrvucib5SY8BE73sYlVe5zpqmUUhDxpiKA==
   dependencies:
     react-google-recaptcha "^2.1.0"
 
