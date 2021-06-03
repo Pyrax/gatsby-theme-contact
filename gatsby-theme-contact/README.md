@@ -46,11 +46,11 @@ Gatsby theme for a styled serverless contact page using Netlify Forms. It can al
    // src/gatsby-theme-contact/components/details.js
    /** @jsx jsx */
    import React from 'react'
-   import { jsx, Styled } from 'theme-ui'
+   import { jsx, Themed } from 'theme-ui'
 
    const Details = () => (
      <>
-       <Styled.h3 sx={{ mt: 0 }}>Address</Styled.h3>
+       <Themed.h3 sx={{ mt: 0 }}>Address</Themed.h3>
        <span>
          David Mathews
          <br />
@@ -59,12 +59,12 @@ Gatsby theme for a styled serverless contact page using Netlify Forms. It can al
          Moscow Kentucky 77382
        </span>
 
-       <Styled.h3>Phone</Styled.h3>
+       <Themed.h3>Phone</Themed.h3>
        <span>(357) 616-5411</span>
 
-       <Styled.h3>Email</Styled.h3>
+       <Themed.h3>Email</Themed.h3>
        <span>
-         <Styled.a href='mailto:email@example.com'>email@example.com</Styled.a>
+         <Themed.a href='mailto:email@example.com'>email@example.com</Themed.a>
        </span>
      </>
    )

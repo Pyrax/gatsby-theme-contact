@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from 'react'
-import { jsx, Styled, useThemeUI } from 'theme-ui'
+import { jsx, Themed, useThemeUI } from 'theme-ui'
 import { SocialIcon } from 'react-social-icons'
 import useSiteMetadata from '../hooks/use-site-metadata'
 
@@ -9,10 +9,10 @@ const Socials = () => {
   const { theme } = useThemeUI()
   return social ? (
     <>
-      <Styled.h3>Socials</Styled.h3>
-      <Styled.ul sx={{ listStyle: 'none', p: 0, m: 0 }}>
+      <Themed.h3>Socials</Themed.h3>
+      <Themed.ul sx={{ listStyle: 'none', p: 0, m: 0 }}>
         {social.map(({ url }) => (
-          <Styled.li
+          <Themed.li
             key={url}
             sx={{
               display: 'inline',
@@ -24,9 +24,9 @@ const Socials = () => {
               bgColor='transparent'
               fgColor={theme.colors.text}
             />
-          </Styled.li>
+          </Themed.li>
         ))}
-      </Styled.ul>
+      </Themed.ul>
     </>
   ) : null
 }
