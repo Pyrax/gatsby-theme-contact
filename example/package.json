@@ -1,7 +1,7 @@
 {
   "name": "example",
   "private": true,
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
   "author": "Björn Clees <piranhadev@gmail.com> (https://github.com/pyrax/)",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "gatsby": "^3.6.1",
     "gatsby-plugin-react-helmet": "^4.6.0",
     "gatsby-plugin-theme-ui": "^0.9.1",
-    "gatsby-theme-contact": "^2.0.0",
+    "gatsby-theme-contact": "^3.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
